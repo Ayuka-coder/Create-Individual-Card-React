@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.base {
+  width: 500px;
+}
+
+.input-area {
+  width: 100%;
+  padding: 10px 0;
+  background-color: pink;
+  border-radius: 5px;
+}
+
+#inputName,
+#inputImage {
+  width: 40%;
+  margin: 0 4%;
+}
+
+.output-button {
+  display: block;
+  margin: 10px auto 0;
+}
+
+.output-area {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 300px;
+  border: 1px solid #4169e1;
+  border-radius: 5px;
+}
+
+.person {
+  background-color: #87cefa;
+  width: 50%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.person img {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.person p {
+  text-align: center;
+  line-height: 1.3;
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
